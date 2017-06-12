@@ -1,0 +1,37 @@
+<userbase>
+    <testCase>
+        <userCredentials>
+            <username>EugenBorisik</username>
+            <password>qwerty12345</password>
+            <validationType>correctCreds</validationType>
+        </userCredentials>
+    </testCase>
+    <testCase>
+        <userCredentials>
+            <username>EugenBorisik</username>
+            <password></password>
+            <validationType>incorrectPass</validationType>
+        </userCredentials>
+    </testCase>
+    <testCase>
+        <userCredentials>
+            <username>Ev</username>
+            <password>qwerty12345</password>
+            <validationType>incorrectUsername</validationType>
+        </userCredentials>
+    </testCase>
+    <testCase>
+        <userCredentials>
+            <username></username>
+            <password></password>
+            <validationType>noUsernameAndPass</validationType>
+        </userCredentials>
+    </testCase>
+    <testCase>
+        <userCredentials>
+            <username>test</username>
+            <password>test</password>
+            <validationType>incorrectUsernameAndPass</validationType>
+        </userCredentials>
+    </testCase>
+</userbase>
